@@ -1,0 +1,286 @@
+html{
+  height: 100%;
+  margin: auto;
+}
+head {
+  margin: 0;  
+}
+body {
+  font-family: 'Montserrat'; /* w3 schools */
+  text-align: center;
+  margin: 0;
+}
+
+/* footer */
+footer {
+  background: #808080;
+  padding: 55px 50px;
+  display: block;
+  font-size: 20px;
+}
+#footer-layout {
+  margin-top: 50px;
+  display: block;
+  color:white;
+}
+.dcu-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.footer-text {
+  color: white;
+}
+.valid-html-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* header  - the following navigation styling was from previous LC experience */
+.top_navbar {
+  color: #363636 ;
+  background-color: white; 
+  margin-bottom: 50px;
+  top: 0;
+  position: fixed;
+  z-index: 2;
+}
+ul {
+  width: 100%;
+  position: fixed; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5C5042;
+}
+.links {
+  float: right;
+}
+.name {
+  font-size: 25px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.sec-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav-text{
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.main-page-link  {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+/* image and title */
+.first-image {
+  text-align: center;
+  color: white;
+}
+.main-image {
+  width:100%;
+}
+.site-title {
+  background:#685A4B;
+  color: white;
+}
+.name-title {
+  margin-top: 40px;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 60px;
+}
+.sub-title {
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* clear space between divs */
+.clear{
+  clear:both;
+}
+/* about me css */
+.main-heading {
+  background-color: #685A4B;
+  margin-top: 0;
+}
+.big-heading {
+  font-size: 100px;
+  color: white;
+}
+.head {
+  margin-top: 100px;
+  color:#685A4B;
+  font-size: 50px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.home1-image{
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 100px;
+}
+.home-content1 {
+  padding:5px;
+  color: #685A4B;
+  text-align: left;
+  margin-right: 5%;
+}
+/* work experience css */
+.work-experience {
+  background-color:#917e69;
+  overflow: hidden;
+  margin-top: 50px;
+}
+h2.work-head {
+  color: white;
+  margin: 50px;
+  font-size: 50px;
+}
+.job-title {
+  margin-top: 20px;
+}
+.jobs {
+  float: left;
+  margin-left: 6.6%;
+  margin-right: 6.6%; 
+  width: 20%;
+  color: white;
+}
+.jobs:after { /* :after used before in previous code */
+  display: table;
+}
+.job-light {
+  opacity: 0.5;
+  font-weight: normal;
+}
+.job-desc {
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.job-img {
+  margin-top: 20px;
+  width: 20%;
+}
+/* image gallery - css and html found on W3schools */
+.gallery-head {
+  margin-top: 50px;
+  font-size: 50px;
+  color:#685A4B;
+  font-weight: bold;
+}
+.gallery-title {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #685A4B;
+  margin-left: 3%;
+  margin-bottom: 30px;
+}
+.gallery-sec {
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%; 
+  width: 27.3%;
+  color: white;
+}
+.gallery-sec:after { /* '':after' used before in previous code */
+  display: table;
+}
+.gallery-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  z-index: 1;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.gallery-sec:hover .gallery-img {
+  opacity: 0.3;
+}
+.gallery-sec:hover .middle {
+  opacity: 1.5;
+}
+.text1 {
+  color:  #685A4B;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.text2 {
+  color: #685A4B;
+  font-size: 14px;
+}
+.recipe {
+  color: #685A4B;
+  font-weight: bold;
+  opacity: 0.75;
+  text-decoration: none;
+}
+/* contact me css */
+.contact-head {
+  color: #685A4B;
+  font-size: 45px;
+  margin-left: 30%;
+  text-align:left;
+}
+.contact-img{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 30%;
+}
+.column1 {
+  float: left;
+  width: 50%;
+}
+#contact-name {
+  height: 50px;
+}
+#contact-email {
+  height: 50px;
+}
+#contact-tel {
+  height: 50px;
+}
+textarea {
+  width: 340px;
+  font-size: 15px;
+}
+.submit-button {
+  width: 100px;
+  height: 50px;
+  background-color: #685A4B;
+  color: white;
+  font-weight: bold;
+  border-color: white;
+}
